@@ -5,9 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuizzShow</title>
+    <link rel="stylesheet" href="https://stylishbookui.netlify.app/Components/stylishbook.css" />
     <link rel="stylesheet" href="CSS/quizzshow.css" />
 </head>
 <body>
+    <header>
+        <div class="navbar__container padding--medium">
+            <div class="navbar__heading-container">
+                <div class="navbar__title">
+                    QuizzShow
+                </div>
+            </div>
+            <ul class="navbar__list-container">
+                <li class="navbar__item">
+                    <a>Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a>Explore</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     
+    <div class="container--50 container__flex--center padding--medium ">
+        <div class="about__description padding--medium">
+            <h2 class="text--light text--center margin-bottom--large">Welcome to QuizzShow</h2>
+            <p class='text--large text--center margin-bottom--medium'> 
+                Let's Begin the show
+            </p>
+            <div class="container__flex--center margin-tb--large">
+                <button class="btn btn--outline">Explore</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container--80 quiz__category">
+        <div class="container__flex--center margin-bottom--large padding--medium">
+            <h2>Category</h2>
+        </div>
+        <div class="container__flex--center container__flex--wrap">
+            <div class="category--card margin--medium">
+                <img src="Images/quiz.jpg" />
+                <h3 class="category--title">Category</h3>
+            </div>
+            <div class="category--card margin--medium">
+                <img src="Images/quiz.jpg" />
+                <h3 class="category--title">Category</h3>
+            </div>
+            <div class="category--card margin--medium">
+                <img src="Images/quiz.jpg" />
+                <h3 class="category--title">Category</h3>
+            </div>
+            <div class="category--card margin--medium">
+                <img src="Images/quiz.jpg" />
+                <h3 class="category--title">Category</h3>
+            </div>
+        </div>
+        <div class="container__flex--center margin--medium">
+            <button class="btn btn--outline">View All</button>
+        </div>
+    </div>
+
+    <footer class="footer__container padding--medium">
+        <div class="margin-tb--large">
+            <p class="text--large">Let's Get In Touch</p>
+        </div>
+        <div class="footer__icons">
+            <a href="https://github.com/Ash-D23/"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/Ashutosh_devtlk"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/ashutosh18k23/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="margin-tb--large">
+            <p class="text--medium">Copyrights © 2022 StyliBook Store</p>
+        </div>
+    </footer>
 </body>
 </html>
