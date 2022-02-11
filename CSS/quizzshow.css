@@ -199,11 +199,8 @@
         color: var(--clr-primary);
     }
 
-<<<<<<< HEAD
-    .rules__container{
-=======
+    .rules__container,
     .question__container{
->>>>>>> 9e88be6e5fa44a897bb59f3727d26a33a76c8cba
         max-width: 100%;
     }
 }
