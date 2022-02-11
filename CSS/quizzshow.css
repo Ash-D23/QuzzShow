@@ -85,6 +85,22 @@
     background-color: #991b1b;
 }
 
+.btn--light{
+    background-color: var(--clr-light);
+    color: var(--clr-primary);
+}
+
+.btn--light:hover{
+    background-color: var(--clr-light);
+}
+
+.rules__container{
+    max-width: 50%;
+}
+
+.rules{
+    min-height: 70vh;
+}
 @media only screen and (max-width: 600px) {
 
     .container--50{
@@ -98,5 +114,9 @@
 
     .navbar__item:hover a{
         color: var(--clr-primary);
+    }
+
+    .rules__container{
+        max-width: 100%;
     }
 }
