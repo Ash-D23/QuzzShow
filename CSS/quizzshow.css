@@ -199,6 +199,7 @@
         color: var(--clr-primary);
     }
 
+    .rules__container,
     .question__container{
         max-width: 100%;
     }
