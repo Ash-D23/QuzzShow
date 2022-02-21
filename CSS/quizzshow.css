@@ -8,6 +8,9 @@
     --text-clr-secondary: #f3f4f6;
 
     --clr-light: #a78bfa;
+
+    --clr-error: #dc2626;
+    --clr-success: #15803d;
 }
 
 .category--container{
@@ -131,7 +134,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid grey;
+    border: 1px solid var(--clr-grey);
     border-radius: 10px;
     margin: var(--margin-medium) 0;
     cursor: pointer;
@@ -143,22 +146,22 @@
 }
 
 .answer--success{
-    background-color: #15803d;
+    background-color: var(--clr-success);
     border: none;
 }
 
 .answer--success:hover{
-    background-color: #15803d;
+    background-color: var(--clr-success);
     border: none;
 }
 
 .answer--wrong{
-    background-color: #dc2626;
+    background-color: var(--clr-error);
     border: none;
 }
 
 .answer--wrong:hover{
-    background-color: #dc2626;
+    background-color: var(--clr-error);
     border: none;
 }
 
@@ -187,7 +190,7 @@
 }
 
 .result__error{
-    color: #dc2626;
+    color: var(--clr-error);
 }
 
 .hide{
